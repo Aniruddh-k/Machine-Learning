@@ -20,6 +20,9 @@ In categorical to perform Univariate Analysis we can plot
 
 <ul><li><b>Countplot</b></li></ul>
 
+![image](https://github.com/user-attachments/assets/b75d2f11-d6c5-413b-b759-fd2ae9e1861d)
+
+
 seaborn code snippet - `sns.countplot(df[''])`
 
 pandas code snippet - `df[''].value_counts().plot(kind='bar')`
