@@ -11,3 +11,35 @@ Categorical
 Numerical
 </li>
 </ul>
+
+so there are different ways to analyse both columns 
+
+## Categorical
+
+In categorical to perform Univariate Analysis we can plot 
+
+<ul><li><b>Countplot</b></li></ul>
+
+seaborn code snippet - `sns.countplot(df[''])`
+
+pandas code snippet - `df[''].value_counts().plot(kind='bar')`
+
+<ul><li><b>Pie Chart</b></li></ul>
+
+code with %age - `df[''].value_counts().plot(kind='pie', autopct = %.2f%)`
+
+code without %age - `df[''].value_counts().plot(kind='pie')`
+
+## Numerical
+
+In numerical columns to perform Univariate Analysis we plot
+
+<ul><li><b>Histogram</b></li></ul>
+
+seaborn code snippet - `sns.hist(df[''])`
+
+pandas code snippet - `df[''].value_counts().plot(kind='bar')`
+
+
+
+
